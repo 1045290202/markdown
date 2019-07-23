@@ -1,0 +1,7 @@
+{
+  "name": "markdown",
+  "version": "1.0.0",
+  "dependencies": {
+    "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony"
+  }
+}

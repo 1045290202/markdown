@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<title>markdown</title>
+	<link rel="stylesheet" href="src/css/markdown.min.css">
+	<link rel="stylesheet" href="src/css/style.min.css">
+</head>
+<body>
+<div>
+	<form id="form" class="form">
+		<label><textarea id="text" name="text" placeholder="请输入markdown文本"></textarea></label>
+	</form>
+</div>
+<div class="html">
+	<div id="html" class="md-view"></div>
+</div>
+<script src="src/js/test.min.js"></script>
+<script src="src/js/Markdown.min.js"></script>
+<script>
+	window.onbeforeunload = function () {//防止不小心关闭网页
+		return "确定要退出吗？";
+	}
+</script>
+</body>
+</html>
