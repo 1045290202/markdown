@@ -7,8 +7,6 @@
 
 + ### 前言
 
-+ ### 前言
-
 	抽空用JavaScript写了一个Markdown解释器，和标准的Markdown语法有点点不一样。可以用来制作个人博客写文章的功能。
 
 	预览功能页面：[点这里](http://markdown.sjkcym.cn) （ikun不要打我）
@@ -17,7 +15,7 @@
 
 	1. 开发环境
 		
-		下载或引用[Markdown.css](https://github.com/1045290202/markdown/blob/master/src/css/markdown.css)（建议下载，也可以自定义样式）和[Markdown.js](https://github.com/1045290202/markdown/blob/master/src/js/Markdown.js)
+		下载或引用[Markdown.css](https://github.com/1045290202/markdown/blob/master/src/css/markdown.css)和[Markdown.js](https://github.com/1045290202/markdown/blob/master/src/js/Markdown.js)
 		
 		```html
 		<link rel="stylesheet" href="https://github.com/1045290202/markdown/blob/master/src/css/markdown.css">
