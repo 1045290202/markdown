@@ -183,9 +183,40 @@
 		\(\)
 		\<\>
 		```
+		
++ ### 自定义CSS样式
+	
+	什么？你觉得我给的样式不好看，那你来写
+	
+	自定义css样式：
+	在css文件中调用`.md-<html标签名称>`
+	
+	例如：
+	
+	```css
+	.md-code {/*如果是行内代码，需要加上后缀-inline*/
+		display: block;
+		margin: 1rem 0;
+		padding: 1rem;
+		color: #f5f5f5;
+		border-radius: 5px;
+		background-color: #424242;
+	}
+	
+	.md-hr {
+		border: none;
+		border-top: .09rem dashed #bdbdbd;
+		border-bottom: none;
+		margin: .5rem 0;
+	}
+	```
+	
+	*建议最外层的html标签类名设置为`md-view`*
 
 最后，放一张坤坤帅气的打篮球的照片吧
 
 ![cxk](src/img/cxk.jpg "cxk")
 
 ~~鸡你太美～~~
+
+溜了溜了
